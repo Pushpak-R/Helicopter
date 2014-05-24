@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style> 
+#container{
+    width:100%;
+    height: 350px;
+    display:block;
+    overflow:hidden;
+}
+</style>
+<script src="js/jquery-1.11.1.min.js"></script>
+</head>
+<body>
+
+<p><b>Note:</b> This example does not work in Internet Explorer 9 and earlier versions.</p>
+
+<div id="container">
+    <img id="img" src="images/heli0.png" alt="My super animation"/>
+</div>
+<script>
+
+ $(document).ready(function(){
+  var imgHeight = 29;
+var count = 1;
+
+var animation = setInterval(function(){
+    <!-- var position =  -1 * (cont*imgHeight); -->
+     $('#img').attr('src',"images/heli"+(count%2)+".png");
+    
+    count++;
+},100);
+}); 
+</script>
+</body>
+</html>

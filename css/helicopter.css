@@ -1,0 +1,123 @@
+#helicopter{
+    width:100%;
+    height: 29px;
+    overflow:hidden;
+}
+#container_top{
+	width:700;
+    height:700; 
+    overflow:hidden;
+}
+/* #container_bottom{
+	width:100%;
+    height:70;
+    background: #cccccc url(images/bg_bottom.png) repeat-x 0 bottom;
+    overflow:hidden;
+} */
+#container{
+	width:700;
+    height:700;
+	border: 10px solid;
+	border-color: #000000 #B1C011;
+	margin-left: 250px;
+	float: left;
+	position: absolute;
+    background: #3EBFC6;
+    overflow:hidden;
+}
+.point {
+	position: absolute;
+	height: 3px;
+	width: 3px;
+	background: #FF0000;
+}
+
+#twelvepoints {
+	margin-left: 185px;
+	position:relative;
+}
+
+ /* #hurdles{
+	width:100%;
+	height:500;
+	background: #cccccc;
+	overflow: hidden;
+}  */
+#score {
+	font-size: 2em;
+	font-family: initial;
+	color: #ffffff;
+	position: absolute;
+	right: 20px;
+	top: 620px;
+}
+#time {
+	font-size: 2em;
+	font-family: initial;
+	color: #ffffff;
+	position: absolute;
+	left: 20px;
+	top: 620px;
+}
+#endScreen {
+	width: 500px;
+	height: 412px;
+	position: absolute;
+	left: 100px;
+	top: 144px;
+	background: #000000;
+	opacity: 0.7;
+	z-index: -100;
+}
+#innerScreen {
+	width: 440;
+	height: 290;
+	position: absolute;
+	left: 30px;
+	top: 30px;
+	background: #ffffff;
+}
+h1 {
+	font-size: 3em;
+	color: #000000;
+	text-align: center;
+	top: -24px;
+	position: absolute;
+	right: 0px;
+	left: 0px;
+}
+p {
+	font-size: 1.5em;
+	font-weight: bold;
+	color: #000000;
+	text-align: center;
+}
+button {
+	height: 40px;
+	width: 180px;
+	font-size: 1.5em;
+	color: #ffffff;
+	background: #000000;
+	position: relative;
+}
+#record {
+	padding: 1px;
+	left: -2;
+	top: 154;
+	color: #ffffff;
+	font-size: 1em;
+	font-weight: bold;
+	position: absolute;
+	padding-left: 12;
+	padding-right: 7;
+	border: 2 solid;
+	border-color: #000000;
+	background: red;
+	border-radius: 5;
+ 	z-index:-500; 
+}
+.bottom_info {
+	font-size: 1.5em;
+	color: white;
+	left: 101;
+}
